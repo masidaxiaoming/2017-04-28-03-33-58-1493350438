@@ -34,11 +34,9 @@ public class BowlingGame {
                     }
             }
             i++;
-
         }
         int[] socere2 = new int[10];
         int j = socere2.length - 1;
-
         while (j >= 0) {
             if (socere[2 * j + 1] == -2) {
                 if (j == 9)
